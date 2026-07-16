@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Local env files (avoid copying secrets)
+.env*.local
+.env
+
+# Docker configuration files
+Dockerfile*
+docker-compose*
+.dockerignore
+
+# Git directories & files
+.git
+.gitignore
+.gitattributes
+
+# Editor settings and IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
